@@ -1,7 +1,6 @@
 ﻿h3 {
     color: #557a95;
     margin-right: 40px;
-    margin-bottom: 40px;
 }
 a {
     background-color: #557a95;
@@ -9,4 +8,5 @@ a {
     text-decoration: none;
     color: white;
     margin-right: 10px;
+    margin-top: 30px;
 }
