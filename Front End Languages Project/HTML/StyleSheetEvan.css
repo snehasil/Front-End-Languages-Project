@@ -1,18 +1,16 @@
 ﻿h3 {
     color: #557a95;
-    margin-right: 40px;
 }
 a {
     background-color: #557a95;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     color: white;
-    margin-right: 10px;
-    margin-top: 30px;
+    margin: 10px;
     border-width: 2px;
     border-style: solid;
 }
-a:hover {
-    
-    border-color: black;
-}
+    a:hover {
+        border-color: black;
+        text-decoration: none;
+    }
