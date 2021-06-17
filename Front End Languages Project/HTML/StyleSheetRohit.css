@@ -2,3 +2,7 @@
     margin-top: 15px;
     margin-left: 7px;
 }
+col{
+    border-width: 2px;
+    border-color: black;
+}
