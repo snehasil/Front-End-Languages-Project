@@ -1,11 +1,12 @@
-﻿img{
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
-    height: 216px;
-    margin-bottom: 30px;
+﻿h3 {
+    color: #557a95;
+    margin-right: 40px;
+    margin-bottom: 40px;
 }
-
-header {
-    font-size: 50px;
+a {
+    background-color: #557a95;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
 }
