@@ -1,27 +1,59 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link href="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML\StyleSheetChitvan.css" rel="stylesheet" />
+    <script src="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML\ourSite.js"></script>
     <meta charset="utf-8" />
-    <title>Heroes For Healthcare</title>
+    <title>Heros For Healthcare</title>
 </head>
-<body>
+<body onload="showHide()">
 
-    <img src="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML Activity - Resources\Heroes for Healthcare\Heroes1.png" />
     <h1 style="text-align:center">Heroes For Healthcare</h1>
-    <h3>Mission</h3>
-    <p>Our non-profit organization is a resource for our military personnel to start a career in healthcare.</p>
-    <img src="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML Activity - Resources\Heroes for Healthcare\Heroes2.png" />
-    <h3>Unemployed Veterans</h3>
-    <p>Many U.S. Veterans find it hard to secure a job in healthcare when they’re ready to work in the<br>civilian world. Even after showing dedication, strong work ethic, and leadership while serving<br>our country, many military members can’t find jobs.</p>
-    <ul>
-        <li>453,000 unemployed veterans in 2016</li>
-        <li>Post-Sept. 11 veterans tend to be unemployed at higher rates than other veterans</li>
-    </ul>
-    <img src="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML Activity - Resources\Heroes for Healthcare\Heroes3.png" width="620" height="350" />
-    <h3>Message from the President</h3>
-    <p>I started Heroes for Healthcare to help our U.S. military personnel receive the resources and<br>credentials they need to continue their career in healthcare as a civilian.<br><br>We need supporters like you to help our mission so our service members can get a job and<br>better their lives.<br><br>After all they did for us, supporting this organization seems like the right thing to do. Make a<br>difference today by supporting Heroes for Healthcare.</p>
-    <a href="http://heroesforhealthcare.org/">HOME</a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3>Mission</h3>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Our non-profit organization is a resource for our military personnel to start a career in healthcare.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <h3>Unemployed Veterans</h3>
+                    </div>
+                    <div class="col-sm-9">
+                        <p>Many U.S. Veterans find it hard to secure a job in healthcare when they’re ready to work in the civilian world. Even after showing dedication, strong work ethic, and leadership while serving our country, many military members can’t find jobs.</p>
+                        <ul>
+                            <li>453,000 unemployed veterans in 2016</li>
+                            <li>Post-Sept. 11 veterans tend to be unemployed at higher rates than other veterans</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <img src="C:\Users\Chitv\OneDrive\Desktop\Code The Way Repositories\Front-End-Languages-Project\Front End Languages Project\HTML Activity - Resources\Heroes for Healthcare\Heroes2.png" />
+            </div>
+        </div>
+        <div class="row">
+            <button onclick="showHide()">Show Message</button>
+        </div>
+        <div id="vision">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Message from the President</h3>
+                </div>
+                <div class="col-sm-9">
+                    <p>I started Heroes for Healthcare to help our U.S. military personnel receive the resources and credentials they need to continue their career in healthcare as a civilian. We need supporters like you to help our mission so our service members can get a job and<br>better their lives. After all they did for us, supporting this organization seems like the right thing to do. Make a<br>difference today by supporting Heroes for Healthcare.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
